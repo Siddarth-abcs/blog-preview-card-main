@@ -6,7 +6,7 @@ import menimg from './assets/images/image-avatar.webp'
 export const Blogpreviewcardmain = () => {
   return (
             <div className='h-screen w-screen bg-yellow flex justify-center items-center '>
-            <div className='bg-white w-[327px] h-[501px] md:w-[384px] md:h-[522px] rounded-2xl'>
+            <div className='bg-white w-[327px] h-[501px] md:w-[384px] md:h-[522px] rounded-2xl shadow-lg border border-black border-solid border-1'>
 {/* Image Part */}
             <div className='w-[279px] md:w-[336px] h-[200px]'>
                 <img src={heroimg} className='m-6 rounded-2xl' alt="" />
